@@ -1,0 +1,30 @@
+{
+  "name": "hot-mod-replacement",
+  "version": "1.0.0",
+  "description": "hot module replacement spike",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boovius/hot-mod-replacement.git"
+  },
+  "keywords": [
+    "webpack",
+    "hmr",
+    "hot-module-replacement",
+    "webpack-dev-server"
+  ],
+  "author": "boovius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boovius/hot-mod-replacement/issues"
+  },
+  "homepage": "https://github.com/boovius/hot-mod-replacement#readme",
+  "devDependencies": {
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
